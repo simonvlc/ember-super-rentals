@@ -16,4 +16,5 @@ test('should transition to rentals route', function(assert) {
       assert.equal(routeName, 'rentals', 'replace with route name rentals');
     }
   });
+  route.beforeModel();
 });
